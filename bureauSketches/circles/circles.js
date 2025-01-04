@@ -98,6 +98,14 @@ function windowResized() {
   resetAll();
 }
 
+function keyPressed() {
+  if (key === 'g' || key === 'G') {
+    const guiContainer = document.querySelector('.dg.ac');
+    if (!guiContainer) return;
+    guiContainer.style.display = guiContainer.style.display === 'none' ? 'block' : 'none';
+  }
+}
+
 // Re-init everything
 function resetAll() {
   dots = [];
