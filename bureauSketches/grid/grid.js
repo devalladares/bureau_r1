@@ -7,6 +7,15 @@
  *  4) Has dat.GUI for easy parameter tweaking
  ************************************************************/
 
+document.addEventListener('keydown', (e) => {
+  if (e.key.toLowerCase() === 'g') {
+    const guiContainer = document.querySelector('.dg.ac');
+    if (!guiContainer) return;
+    guiContainer.style.display =
+      (guiContainer.style.display === 'none') ? 'block' : 'none';
+  }
+});
+
 let dots = [];
 let gridPositions = [];  // We'll store the target positions in a grid
 
