@@ -38,8 +38,8 @@ let params = {
   wanderNudge: 0.1,
 
   // Mouse repulsion
-  mouseRepelRadius: 100,
-  mouseRepelForce: 0.2,
+  mouseRepelRadius: 250,
+  mouseRepelForce: 0.3,
 
   // Grid settings
   gridRows: 11,
