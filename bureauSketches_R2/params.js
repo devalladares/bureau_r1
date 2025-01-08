@@ -40,7 +40,7 @@
     gridCols: 10,
   
     // timing
-    wanderDelay: 800,     // Duration for "wander" mode (800ms)
+    wanderDelay: 1200,     // Duration for "wander" mode (800ms)
   
     // auto cycle
     autoCycle: true,      // Auto cycle enabled by default
