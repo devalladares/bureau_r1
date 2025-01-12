@@ -35,7 +35,7 @@ const PARAMS = {
   // --------------------------------------------------------
   // Particle Count: Possibly fewer on mobile for better performance
   // --------------------------------------------------------
-  particleCount: MOBILE ? 30 : 50,
+  particleCount: MOBILE ? 50 : 50,
 
   // --------------------------------------------------------
   // Larger particle size on mobile (e.g. 20), else 10
@@ -391,7 +391,7 @@ function initializeGridParticles() {
   
   // Example: If on mobile, let’s define many columns (e.g. 15)
   // Otherwise, keep some other logic
-  let cols = MOBILE ? 15 : ceil(Math.sqrt(PARAMS.particleCount * 2));
+  let cols = MOBILE ? 4 : ceil(Math.sqrt(PARAMS.particleCount * 2));
   let rows = ceil(PARAMS.particleCount / cols);
 
   // Margins
